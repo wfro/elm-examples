@@ -1,7 +1,7 @@
-import Html exposing (Html, button, div, text, h1, input, ul, li)
+import Html exposing (..)
 import Html.App as App
 import Html.Attributes exposing (placeholder)
-import Html.Events exposing (onClick, onInput)
+import Html.Events exposing (onInput)
 import String exposing (contains)
 
 main =
@@ -50,8 +50,7 @@ view model =
         List.filter (\item -> String.contains model.searchText item) model.items
   in
       div []
-        [ h1 [] [ text "FIlter me bro" ]
-        , input [ onInput Search ] [ text "" ]
+        [ input [ onInput Search, placeholder "Filter me!" ] [ text "" ]
         , itemList filteredItems
         ]
 
