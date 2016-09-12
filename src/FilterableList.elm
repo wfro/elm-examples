@@ -25,7 +25,7 @@ items =
 
 model : Model
 model =
-  { items =  items
+  { items = items
   , searchText =  ""
   }
 
@@ -56,5 +56,6 @@ view model =
         ]
 
 itemList items =
-  ul [] (List.map (\item -> li [] [ text item ]) items)
+  ul []
+    (List.map (\item -> li [] [ text item ]) items)
 
