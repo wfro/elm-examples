@@ -1,6 +1,6 @@
 # Super Fun and Cool Elm Examples
 
-Learn by doing as they say! This is a collection of some of my favorite small programs meant as learning exercises
+Learn by doing, as they say! This is a collection of some of my favorite small programs meant as learning exercises
 written in the [Elm](http://elm-lang.org/) programming language.
 
 Check out some of the other great examples on [the official site](http://elm-lang.org/examples) and [awesome-elm](https://github.com/isRuslan/awesome-elm#examples).
